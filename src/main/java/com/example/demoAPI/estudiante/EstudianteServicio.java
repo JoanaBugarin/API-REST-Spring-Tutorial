@@ -50,7 +50,7 @@ public class EstudianteServicio {
 		
 	}
 
-	@Transactional
+	@Transactional //con esta anotación no hace falta implementar jpql query, permite usar los setters de tu entidad.
 	public void actualizarEstudiante(Long estudianteId, String nombre, String email) {
 		Estudiante estudiante = estudianteRepositorio.findById(estudianteId).orElseThrow(
 				() -> new IllegalStateException("estudiante con id " + estudianteId + " no existe"));
