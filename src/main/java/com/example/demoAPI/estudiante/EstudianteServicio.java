@@ -19,9 +19,7 @@ public class EstudianteServicio {
 		this.estudianteRepositorio = estudianterepositorio;
 	}
 
-
-
-	//Genera un Json
+	
 	public List<Estudiante> getEstudiantes() {
 		return estudianteRepositorio.findAll();
 	}
