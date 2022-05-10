@@ -11,7 +11,7 @@ Si quieren descargar y trabajar sobre este proyecto tengan en cuenta lo siguient
 3. Es necesario tener la base de datos con la que vas a trabajar. A continuación te dejo los pasos para crear tu base de datos.
 
 ### Creación de la base de datos
-1. en el buscador de windows poner SQL SHELL y entrar a la consola.
+1. En el buscador de windows poner SQL SHELL y entrar a la consola.
 2. Dar enter varias veces (no rellenar nombre de usuario) hasta que pida la password (que no se verá en pantalla cuando teclees), entonces coloca la pass que usaste en la instalación.
 3. Escribe: create database estudiante;
 4. Escribe: \du (para ver los usuarios de tu sistema)
