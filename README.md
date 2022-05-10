@@ -18,4 +18,3 @@ Si quieren descargar y trabajar sobre este proyecto tengan en cuenta lo siguient
 5. Escribe: GRANT ALL PRIVILEGES ON DATABASE "estudiante" TO postgres;    (*postgres es el nombre de usuario por defecto. Si tienes más usuarios (los viste en el paso anterior) repite la misma línea para cada usuario*)
 6. Escribir: \l (para ver el listado de bases de datos que tenemos).
 7. Escribir: \c estudiante (se conecta a la base de datos)
-Una vez conectado puedes hacer consultas en el idioma de la BD, por ejemplo: SELECT * FROM estudiante;
